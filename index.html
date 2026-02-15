@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html><html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Acesons Auto</title>
-
-<style>
+<title>Acesons Auto</title><style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -13,92 +11,125 @@ body {
     color: white;
 }
 
+/* Header */
 header {
-    background: linear-gradient(90deg, #0d6efd, #00c6ff);
-    padding: 40px 20px;
+    background: linear-gradient(90deg,#2563eb,#06b6d4);
     text-align: center;
+    padding: 60px 20px;
 }
-
 header h1 {
+    font-size: 40px;
     margin: 0;
-    font-size: 32px;
 }
-
 header p {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
-.container {
-    padding: 30px;
-    text-align: center;
+/* Sections */
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .card {
     background: #1e293b;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 600px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-button {
-    background: #0d6efd;
+h2 {
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.call {
+    background: #2563eb;
     color: white;
-    border: none;
-    padding: 15px 25px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-button:hover {
-    background: #0056d2;
+.whatsapp {
+    background: #25D366;
+    color: white;
 }
 
+/* Floating WhatsApp */
+.float-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Map */
+iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
     background: #020617;
+    font-size: 14px;
 }
-</style>
-</head>
-
-<body>
-
-<header>
+</style></head><body><header>
 <h1>Acesons Auto</h1>
 <p>Affordable • Quality • Fast Automotive Repairs</p>
-</header>
-
-<div class="container">
-
-<div class="card">
-<h2>Our Services</h2>
+</header><section><div class="card">
+<h2>About Us</h2>
 <p>
-Minor automotive body repairs<br>
-Scratch & dent removal<br>
-Cosmetic touch-ups<br>
-Minor engine services
+Acesons Auto provides affordable and professional minor automotive body repairs and engine services.
+We focus on fast turnaround, quality workmanship, and customer satisfaction in Trichardt.
 </p>
-</div>
-
-<div class="card">
-<h2>Contact Us</h2>
+</div><div class="card">
+<h2>Our Services</h2>
+<ul>
+<li>Minor automotive body repairs</li>
+<li>Scratch & dent removal</li>
+<li>Cosmetic touch-ups</li>
+<li>Minor engine services</li>
+</ul>
+</div><div class="card">
+<h2>Contact</h2>
 <p>Phone: 069 992 8115</p>
 <p>Email: aceson45@gmail.com</p>
-<p>Location: Trichardt</p>
-<br>
-<a href="tel:0699928115">
-<button>WhatsApp Us</button>
-</a>
-</div>
+<p>Location: Trichardt</p><a class="btn call" href="tel:0699928115">Call Now</a><br>
+<a class="btn whatsapp" href="https://wa.me/27699928115" target="_blank">WhatsApp Us</a>
 
-</div>
-
-<footer>
-© 2026 Acesons Auto
-</footer>
-
-</body>
-  </html>
+</div><div class="card">
+<h2>Business Hours</h2>
+<p>Monday – Friday: 8:00 AM – 5:00 PM</p>
+<p>Saturday: 8:00 AM – 1:00 PM</p>
+<p>Sunday: Closed</p>
+</div><div class="card">
+<h2>Find Us</h2>
+<iframe src="https://maps.google.com/maps?q=Trichardt%20South%20Africa&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div></section><a class="float-whatsapp" href="https://wa.me/27699928115" target="_blank">
+WhatsApp
+</a><footer>
+© 2026 Acesons Auto | Trichardt
+</footer></body>
+</html>
